@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOH Unit Directory</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="p-8">
+
+    <div class="max-w-5xl mx-auto">
+        <h1 class="text-3xl font-bold text-center mb-8 text-doh-green-dark">Department Directory</h1>
+        
+        <div id="card-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="col-span-full text-center text-gray-500 py-10" id="loading-state">
+                Loading directory data...
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const container = document.getElementById('card-container');
+            const loadingState = document.getElementById('loading-state');
+
+            // Fetch data from local JSON file
+            fetch('data.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Remove loading state
+                    loadingState.remove();
+                    
+                    // Render each unit as a card
+                    data.forEach(unit => {
+                        const card = createCard(unit);
+                        container.appendChild(card);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                    loadingState.innerHTML = `<span class="text-red-500">Failed to load directory data. Please ensure you are running this on a local server (e.g., Live Server) to allow fetch requests.</span>`;
+                });
+        });
+
+        function createCard(data) {
+            // Format arrays into HTML strings
+            const emailsHTML = data.contact.emails.map(email => 
+                `<a href="mailto:${email}" class="block hover:underline">${email}</a>`
+            ).join('');
+            
+            const numbersHTML = data.contact.mobileNumbers.map(num => 
+                `<a href="tel:${num.replace(/\s+/g, '')}" class="block hover:underline">${num}</a>`
+            ).join('');
+
+            // Create the card element matching the wireframe layout
+            const cardDiv = document.createElement('div');
+            cardDiv.className = 'directory-card p-6 flex flex-col h-full';
+
+            cardDiv.innerHTML = `
+                <h2 class="text-xl font-bold text-center text-doh-green-dark mb-6 uppercase tracking-wide">
+                    ${data.unitName}
+                </h2>
+
+                <div class="flex flex-col sm:flex-row gap-6">
+                    
+                    <div class="flex flex-col items-center sm:items-start w-full sm:w-1/3 shrink-0">
+                        <div class="w-32 h-32 mb-4 bg-doh-green-light rounded-xl border-2 border-doh-green overflow-hidden shadow-sm">
+                            <img src="${data.imageUrl}" alt="Logo for ${data.unitName}" class="w-full h-full object-cover" loading="lazy">
+                        </div>
+
+                        <div class="text-center sm:text-left w-full">
+                            <h3 class="font-bold text-gray-900 leading-tight mb-1 text-sm">${data.head.name}</h3>
+                            <p class="text-xs text-doh-gray-dark font-medium uppercase tracking-wider mb-0.5">${data.head.position}</p>
+                            <p class="text-xs text-gray-500 italic">${data.head.designation}</p>
+                        </div>
+                    </div>
+
+                    <div class="flex-1 border-t sm:border-t-0 sm:border-l border-gray-200 pt-4 sm:pt-0 sm:pl-6">
+                        <h3 class="text-sm font-bold text-doh-green-dark mb-3 uppercase tracking-wider">Contact Information</h3>
+                        
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-400 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+                                <div class="text-sm text-gray-700">
+                                    ${emailsHTML}
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-400 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                </svg>
+                                <div class="text-sm text-gray-700">
+                                    ${numbersHTML}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            `;
+
+            return cardDiv;
+        }
+    </script>
+</body>
+</html>

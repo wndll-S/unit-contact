@@ -1,0 +1,28 @@
+[
+  {
+    "unitName": "Regional Epidemiology and Surveillance Unit",
+    "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
+    "head": {
+      "name": "Juan Dela Cruz, MD, MPH",
+      "position": "Medical Officer IV",
+      "designation": "Head, RESU"
+    },
+    "contact": {
+      "emails": ["resu.regional@doh.gov.ph", "info@doh.gov.ph"],
+      "mobileNumbers": ["+63 917 123 4567", "+63 918 987 6543"]
+    }
+  },
+  {
+    "unitName": "Health Emergency Management Bureau",
+    "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
+    "head": {
+      "name": "Maria Clara Santos, RN",
+      "position": "Nurse V",
+      "designation": "HEMB Coordinator"
+    },
+    "contact": {
+      "emails": ["hemb.response@doh.gov.ph"],
+      "mobileNumbers": ["+63 919 555 8888"]
+    }
+  }
+]
