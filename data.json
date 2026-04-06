@@ -1,24 +1,7 @@
 [
   {
-    "divisionCluster": "ORD",
-    "units": [
-      {
-        "unitName": "ORD",
-        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
-        "head": {
-          "name": "ADRIAN HORT D. RAMOS",
-          "position": "Development Management Officer V",
-          "designation": "OIC, Assistant Regional Director"
-        },
-        "contact": {
-          "emails": ["ahdramos@gmail.com"],
-          "mobileNumbers": ["09778553366"]
-        }
-      }
-    ]
-  },
-  {
-    "divisionCluster": "HFC",
+    "divisionCluster": "Health Facilities Cluster",
+    "divisionClusterInitial": "HFC",
     "units": [
       {
         "unitName": "HFC",
@@ -29,8 +12,12 @@
           "designation": "Cluster Head"
         },
         "contact": {
-          "emails": ["mm.infante@ro7.doh.gov.ph"],
-          "mobileNumbers": ["09176887010"]
+          "emails": [
+            "mm.infante@ro7.doh.gov.ph", "nirhfc@doh.gov.ph"
+          ],
+          "mobileNumbers": [
+            "09176887010"
+          ]
         }
       },
       {
@@ -42,8 +29,10 @@
           "designation": "Unit Head"
         },
         "contact": {
-          "emails": [],
-          "mobileNumbers": ["639086721626"]
+          "emails": ["nirhfdu@doh.gov.ph"],
+          "mobileNumbers": [
+            "09086721626"
+          ]
         }
       },
       {
@@ -55,12 +44,14 @@
           "designation": "Acting Unit Head"
         },
         "contact": {
-          "emails": ["wilnarmiole1202@gmail.com"],
+          "emails": [
+            "wilnarmiole1202@gmail.com", "nirhfc@doh.gov.ph"
+          ],
           "mobileNumbers": []
         }
       },
       {
-        "unitName": "ICTU",
+        "unitName": "DHSU",
         "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
         "head": {
           "name": "DENEB IKENN I. DE LOS SANTOS",
@@ -68,17 +59,22 @@
           "designation": "Acting Unit Head"
         },
         "contact": {
-          "emails": ["diidelossantosnirchd@gmail.com"],
-          "mobileNumbers": ["09063969328"]
+          "emails": [
+            "diidelossantosnirchd@gmail.com", "dohniriclinicsys@gmail.com", "ihomisplus.nirchd@gmail.com"
+          ],
+          "mobileNumbers": [
+            "09063969328"
+          ]
         }
       }
     ]
   },
   {
-    "divisionCluster": "HSIC",
+    "divisionCluster": "Health Systems Integration Cluster",
+    "divisionClusterInitial": "HSIC",
     "units": [
       {
-        "unitName": "HSIC",
+        "unitName": "HSIC - CHIEF",
         "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
         "head": {
           "name": "JENNIFER C. REMOLLO",
@@ -86,56 +82,258 @@
           "designation": "Cluster Head"
         },
         "contact": {
-          "emails": ["jnnfrremollo@gmail.com"],
-          "mobileNumbers": ["09189289075"]
+          "emails": [
+            "jnnfrremollo@gmail.com", "hsicchdnir@gmail.com"
+          ],
+          "mobileNumbers": [
+            "09189289075"
+          ]
+        }
+      },
+      {
+        "unitName": "PCDOHO - BACOLOD CITY & NEGROS OCCIDENTAL",
+        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
+        "head": {
+          "name": "JOELYN C. DEMERIN",
+          "position": "Development Management Officer IV",
+          "designation": "PCDOHO Head"
+        },
+        "contact": {
+          "emails": [
+            "pcdohobacolod@gmail.com"
+          ],
+          "mobileNumbers": [
+            
+          ]
+        }
+      },
+      {
+        "unitName": "PDOHO - NEGROS ORIENTAL",
+        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
+        "head": {
+          "name": "BUENAFE L. TORRES",
+          "position": "Development Management Officer IV",
+          "designation": "PDOHO - Negros Oriental Head"
+        },
+        "contact": {
+          "emails": [
+            "negrosoriental@ro7.doh.gov.ph"
+          ],
+          "mobileNumbers": [
+
+          ]
+        }
+      },
+      {
+        "unitName": "PDOHO - SIQUIJOR",
+        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
+        "head": {
+          "name": "ZELLA MAYE G. SAMSON",
+          "position": "Development Management Officer IV",
+          "designation": "PDOHO - Siquijor Head"
+        },
+        "contact": {
+          "emails": [
+            "siquijor@ro7.doh.gov.ph"
+          ],
+          "mobileNumbers": [
+
+          ]
         }
       }
     ]
   },
   {
-    "divisionCluster": "MSD",
+    "divisionCluster": "Local Health Support Division",
+    "divisionClusterInitial": "LHSD",
     "units": [
       {
-        "unitName": "CAO",
+        "unitName": "LHSD",
         "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
         "head": {
-          "name": "ATTY. JEFFREY G. DOYONGAN",
-          "position": "Development Management Officer IV",
-          "designation": "CAO"
+          "name": "DR. DEAB P. ELTANAL",
+          "position": "Medical Officer IV",
+          "designation": "Acting Division Chief"
         },
         "contact": {
-          "emails": ["doyonganjeffrey@gmail.com"],
-          "mobileNumbers": ["09156231470"]
+          "emails": [
+            "dp.eltanal@ro7.doh.gov.ph", "nirlhsd2024@gmail.com"
+          ],
+          "mobileNumbers": [
+            "09173140864"
+          ]
         }
       },
       {
-        "unitName": "SAO",
+        "unitName": "EOHS",
         "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
         "head": {
-          "name": "GRACEL CHLOE L. PADRONES",
-          "position": "Supervising Administrative Officer",
-          "designation": ""
+          "name": "DR. LEILA JEAN S. BUCOL",
+          "position": "Medical Officer III",
+          "designation": "Acting Unit Head"
         },
         "contact": {
-          "emails": ["gclpadrones@doh.gov.ph"],
-          "mobileNumbers": ["09053312261"]
+          "emails": [
+            "leilajeanbucol@gmail.com", "eohnirchd@gmail.com"
+          ],
+          "mobileNumbers": [
+            "9156174823"
+          ]
         }
       },
       {
-        "unitName": "PROCUREMENT",
+        "unitName": "FHC",
         "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
         "head": {
-          "name": "CHERRY JEAN Z. VILLAREAL",
+          "name": "DR. YORADYL ZYRA F. MATUGAS-DIZON",
+          "position": "Medical Officer III",
+          "designation": "Acting Unit Head"
+        },
+        "contact": {
+          "emails": ["dohnirfhs@gmail.com"],
+          "mobileNumbers": [
+            "9171491593"
+          ]
+        }
+      },
+      {
+        "unitName": "HEMU",
+        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
+        "head": {
+          "name": "JAN JOSEPH N. PARADO",
+          "position": "Development Management Officer III",
+          "designation": "Unit Head"
+        },
+        "contact": {
+          "emails": [
+            "jjparado83@gmail.com", "niropcen@doh.gov.ph"
+          ],
+          "mobileNumbers": [
+            "0917-132-4237"
+          ]
+        }
+      },
+      {
+        "unitName": "PHC",
+        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
+        "head": {
+          "name": "DR. CHARMAINE O. SANTOS",
+          "position": "Medical Officer III",
+          "designation": "Acting Unit Head"
+        },
+        "contact": {
+          "emails": ["hpcunirchd@gmail.com"],
+          "mobileNumbers": [
+            "09178942101"
+          ]
+        }
+      },
+      {
+        "unitName": "Public Health Research and Intelligence Cluster",
+        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
+        "head": {
+          "name": "DR. ROSELLE LOUISE P. BANDAL",
+          "position": "Medical Officer III",
+          "designation": "Acting Unit Head"
+        },
+        "contact": {
+          "emails": [],
+          "mobileNumbers": []
+        }
+      },
+      {
+        "unitName": "RESU",
+        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
+        "head": {
+          "name": "RONALYN E. DELA TORRE",
+          "position": "Senior Health program Officer",
+          "designation": "Unit Head"
+        },
+        "contact": {
+          "emails": [
+            "afpso2019@gmail.com", "dohresunir@gmail.com"
+          ],
+          "mobileNumbers": [
+            "09166369663"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "divisionCluster": "Management Support Division",
+    "divisionClusterInitial": "MSD",
+    "units": [
+      {
+        "unitName": "ACCOUNTING",
+        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
+        "head": {
+          "name": "MARIVIC C. SABLA-ON",
+          "position": "Accountant III",
+          "designation": "Unit Head"
+        },
+        "contact": {
+          "emails": [
+            "carbonillamarivic25@gmail.com", "acctgnirchd@gmail.com"
+          ],
+          "mobileNumbers": [
+            "09171843462"
+          ]
+        }
+      },
+      {
+        "unitName": "BUDGET",
+        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
+        "head": {
+          "name": "JOHNSON S. BAHANDI",
           "position": "Administrative Officer V",
           "designation": "Unit Head"
         },
         "contact": {
-          "emails": ["villarealcherryjean@gmail.com"],
-          "mobileNumbers": ["09985593327"]
+          "emails": [
+            "jsbahandi@doh.gov.ph", "budgetnirchd@gmail.com"
+          ],
+          "mobileNumbers": [
+            "09936593194"
+          ]
         }
       },
       {
-        "unitName": "GSRU",
+        "unitName": "CASHIER",
+        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
+        "head": {
+          "name": "CHERYL L. FREJOLES",
+          "position": "Administrative Officer III",
+          "designation": "Unit Head"
+        },
+        "contact": {
+          "emails": [
+            "cfrejoles.nirchd@gmail.com", "nirchd.cashier25@gmail.com"
+          ],
+          "mobileNumbers": [
+            "0969-409-5697"
+          ]
+        }
+      },
+      {
+        "unitName": "FINANCE",
+        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
+        "head": {
+          "name": "ATTY. EVEALYN-KRESTIE C. GLORIA",
+          "position": "Attorney III",
+          "designation": "Unit Head"
+        },
+        "contact": {
+          "emails": [
+            "ekcglorianirchd@gmail.com", "finance.nirchd@gmail.com"
+          ],
+          "mobileNumbers": [
+            "09985744658"
+          ]
+        }
+      },
+      {
+        "unitName": "GENERAL SERVICES",
         "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
         "head": {
           "name": "DENNIS M. PAHILGA",
@@ -143,8 +341,12 @@
           "designation": "Unit Head"
         },
         "contact": {
-          "emails": ["dmpahilga791510@gmail.com"],
-          "mobileNumbers": ["09457708941"]
+          "emails": [
+            "dmpahilga791510@gmail.com", "dohnirchdgeneralservices@gmail.com"
+          ],
+          "mobileNumbers": [
+            "09457708941"
+          ]
         }
       },
       {
@@ -156,8 +358,161 @@
           "designation": "Unit Head"
         },
         "contact": {
-          "emails": ["jomiralles@doh.gov.ph"],
-          "mobileNumbers": ["09329914315"]
+          "emails": [
+            "jomiralles@doh.gov.ph", "chdnirhumanresource@doh.gov.ph"
+          ],
+          "mobileNumbers": [
+            "09329914315"
+          ]
+        }
+      },
+      {
+        "unitName": "ICT",
+        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
+        "head": {
+          "name": "DENNIS M. PAHILGA",
+          "position": "Administrative Officer IV",
+          "designation": "Unit Head"
+        },
+        "contact": {
+          "emails": [
+            "dmpahilga791510@gmail.com", "dohnirchdictu@gmail.com"
+          ],
+          "mobileNumbers": [
+            "09457708941"
+          ]
+        }
+      },
+      {
+        "unitName": "LEGAL",
+        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
+        "head": {
+          "name": "ATTY. EVEALYN-KRESTIE C. GLORIA",
+          "position": "Attorney III",
+          "designation": "Legal Officer"
+        },
+        "contact": {
+          "emails": [
+            "ekcglorianirchd@gmail.com", "legal.nirchd@gmail.com"
+          ],
+          "mobileNumbers": [
+            "09985744658"
+          ]
+        }
+      },
+      {
+        "unitName": "MAIFIPP",
+        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
+        "head": {
+          "name": "GISELLE A. TATEL",
+          "position": "Health Program Officer II",
+          "designation": "Acting Unit Head"
+        },
+        "contact": {
+          "emails": ["maifippnirchd@gmail.com"],
+          "mobileNumbers": []
+        }
+      },
+      {
+        "unitName": "MASU",
+        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
+        "head": {
+          "name": "JERNALYN BERNADAS",
+          "position": "Pharmacist II",
+          "designation": "Acting Unit Head"
+        },
+        "contact": {
+          "emails": ["supply.nirchd@gmail.com"],
+          "mobileNumbers": []
+        }
+      },
+      {
+        "unitName": "PLANNING",
+        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
+        "head": {
+          "name": "FRETZIE P. MARIÑO",
+          "position": "Planning Officer II",
+          "designation": "Unit Head"
+        },
+        "contact": {
+          "emails": [
+            "fpmarino.nirchd@gmail.com", "nirchdplanningunit@gmail.com"
+          ],
+          "mobileNumbers": [
+            "0917-117-6402"
+          ]
+        }
+      },
+      {
+        "unitName": "PROCUREMENT",
+        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
+        "head": {
+          "name": "CHERRY JEAN Z. VILLAREAL",
+          "position": "Administrative Officer V",
+          "designation": "Unit Head"
+        },
+        "contact": {
+          "emails": [
+            "villarealcherryjean@gmail.com", "procurement.dohnirchd@gmail.com"
+          ],
+          "mobileNumbers": [
+            "09985593327"
+          ]
+        }
+      },
+      {
+        "unitName": "RECORDS",
+        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
+        "head": {
+          "name": "DENNIS M. PAHILGA",
+          "position": "Administrative Officer IV",
+          "designation": "Unit Head"
+        },
+        "contact": {
+          "emails": [
+            "dmpahilga791510@gmail.com", "dohnirrecords@gmail.com"
+          ],
+          "mobileNumbers": [
+            "09457708941"
+          ]
+        }
+      },
+      {
+        "unitName": "SAO",
+        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
+        "head": {
+          "name": "GRACEL CHLOE L. PADRONES",
+          "position": "Supervising Administrative Officer",
+          "designation": ""
+        },
+        "contact": {
+          "emails": [
+            "gclpadrones@doh.gov.ph"
+          ],
+          "mobileNumbers": [
+            "09053312261"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "divisionCluster": "Regulations and Licensing Enforcement Division",
+    "divisionClusterInitial": "RLED",
+    "units": [
+      {
+        "unitName": "RLED",
+        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?text=DOH+Logo",
+        "head": {
+          "name": "MARY JUNILLEE C. ARAÑO",
+          "position": "Licensing Officer II",
+          "designation": "Acting Division Chief"
+        },
+        "contact": {
+          "emails": ["rlednirchd@doh.gov.ph"],
+          "mobileNumbers": [
+            "09778752020", "09927367434"
+          ]
         }
       }
     ]
