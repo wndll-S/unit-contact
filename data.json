@@ -22,7 +22,7 @@
       },
       {
         "unitName": "HFDU",
-        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?font=oswald&text=Kaye+Marie+E.+Yap",
+        "imageUrl": "https://res.cloudinary.com/dqgqynogk/image/upload/v1775630251/kaye-marie-yap_gaiaso.jpg",
         "head": {
           "name": "DR. KAYE MARIE E. YAP",
           "position": "Medical Officer III",
@@ -37,7 +37,7 @@
       },
       {
         "unitName": "HFEP",
-        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?font=oswald&text=Wilnar+N.+Miole",
+        "imageUrl": "https://res.cloudinary.com/dqgqynogk/image/upload/v1775630896/wilnar-miole_ky5ew4.jpg",
         "head": {
           "name": "ENGR. WILNAR N. MIOLE",
           "position": "Engineer II",
@@ -91,12 +91,12 @@
         }
       },
       {
-        "unitName": "PCDOHO - BACOLOD CITY & NEGROS OCCIDENTAL",
+        "unitName": "P/CDOHO - BACOLOD CITY & NEGROS OCCIDENTAL",
         "imageUrl": "https://res.cloudinary.com/dqgqynogk/image/upload/v1775533860/joelyn-demerin_iqnxqs.jpg",
         "head": {
           "name": "JOELYN C. DEMERIN",
           "position": "Development Management Officer IV",
-          "designation": "PCDOHO Head"
+          "designation": "P/CDOHO Head"
         },
         "contact": {
           "emails": [
@@ -183,7 +183,7 @@
       },
       {
         "unitName": "FHC",
-        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?font=oswald&text=Yoradyl+Zyra++F.+Matugas-Dizon",
+        "imageUrl": "https://res.cloudinary.com/dqgqynogk/image/upload/v1775630251/yoradyl-zyra-matugas-dizon_yhwyq1.jpg",
         "head": {
           "name": "DR. YORADYL ZYRA F. MATUGAS-DIZON",
           "position": "Medical Officer III",
@@ -198,7 +198,7 @@
       },
       {
         "unitName": "HEMU",
-        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?font=oswald&text=Jan+Joseph+N.+Parado",
+        "imageUrl": "https://res.cloudinary.com/dqgqynogk/image/upload/v1775630824/jan-jospeh-parado_bgjasc.jpg",
         "head": {
           "name": "JAN JOSEPH N. PARADO",
           "position": "Development Management Officer III",
@@ -300,7 +300,7 @@
       },
       {
         "unitName": "CASHIER",
-        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?font=oswald&text=Cheryl+L.+Frejoles",
+        "imageUrl": "https://res.cloudinary.com/dqgqynogk/image/upload/v1775630251/cheryl-frejoles_ffvpiy.jpg",
         "head": {
           "name": "CHERYL L. FREJOLES",
           "position": "Administrative Officer III",
@@ -317,7 +317,7 @@
       },
       {
         "unitName": "FINANCE",
-        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?font=oswald&text=Evealyn-Krestie+C.+Gloria",
+        "imageUrl": "https://res.cloudinary.com/dqgqynogk/image/upload/v1775630250/evealyn-kristie-gloria_dghxlk.jpg",
         "head": {
           "name": "ATTY. EVEALYN-KRESTIE C. GLORIA",
           "position": "Attorney III",
@@ -351,7 +351,7 @@
       },
       {
         "unitName": "HRMU",
-        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?font=oswald&text=Jeffrey+O.+Miralles",
+        "imageUrl": "https://res.cloudinary.com/dqgqynogk/image/upload/v1775630251/jeffrey-miralles_ohnzv3.jpg",
         "head": {
           "name": "JEFFREY O. MIRALLES",
           "position": "Administrative Officer V (HRMO III)",
@@ -385,7 +385,7 @@
       },
       {
         "unitName": "LEGAL",
-        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?font=oswald&text=Evealyn-Krestie+C.+Gloria",
+        "imageUrl": "https://res.cloudinary.com/dqgqynogk/image/upload/v1775630250/evealyn-kristie-gloria_dghxlk.jpg",
         "head": {
           "name": "ATTY. EVEALYN-KRESTIE C. GLORIA",
           "position": "Attorney III",
@@ -402,7 +402,7 @@
       },
       {
         "unitName": "MAIFIPP",
-        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?font=oswald&text=Giselle+A.+Tatel",
+        "imageUrl": "https://res.cloudinary.com/dqgqynogk/image/upload/v1775630251/giselle-tatel_mqpoky.jpg",
         "head": {
           "name": "GISELLE A. TATEL",
           "position": "Health Program Officer II",
@@ -428,7 +428,7 @@
       },
       {
         "unitName": "PLANNING",
-        "imageUrl": "https://placehold.co/150x150/e8f5e9/1d5a2e?font=oswald&text=Fretzie+P.+Mariño",
+        "imageUrl": "https://res.cloudinary.com/dqgqynogk/image/upload/v1775630734/fretzie-marino_yu1xhq.jpg",
         "head": {
           "name": "FRETZIE P. MARIÑO",
           "position": "Planning Officer II",
